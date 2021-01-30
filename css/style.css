@@ -151,6 +151,14 @@ header {
   color: var(--clr-dark);
 }
 
+.logo a {
+  color: var(--clr-dark);
+}
+
+.logo:hover {
+  opacity: 80%;
+}
+
 .nav {
   position: fixed;
   background: var(--clr-dark);
