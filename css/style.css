@@ -507,3 +507,14 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
+
+.portfolio-item-div {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-item-div h3 {
+  margin-left: auto;
+  margin-right: auto;
+}
