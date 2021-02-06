@@ -319,7 +319,7 @@ header {
   background-color: var(--clr-dark);
   background-image: url(../img/laptop.png);
   background-size: cover;
-  /* background-blend-mode: multiply; */
+  background-blend-mode: multiply;
   color: var(--clr-light);
   text-align: center;
   /* opacity: 0.8; */
@@ -502,19 +502,62 @@ header {
   margin: 0 auto;
 }
 
-.portfolio-item-individual p {
-  max-width: 600px;
+.circuit-item-individual p {
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.portfolio-item-div {
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+.circuit-item-div {
+  background: var(--clr-dark);
+  max-width: 100%;
+  /* justify-content: center; */
+  /* display: flex; */
+  /* flex-wrap: wr; */
+  /* flex-direction: column;
+  justify-content: center; */
+  /* grid-template-rows: ;
+  row-gap: 15px;
+  justify-items: center;
+   grid-template-columns: repeat(1, 1fr);
+  margin-left: 50%; */
+  /*margin-left: auto;
+  margin-right: auto; */
 }
 
-.portfolio-item-div h3 {
-  margin-left: auto;
-  margin-right: auto;
+.circuit-item-imgs {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  margin-left: 27%;
 }
+
+.item1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.item2 {
+  padding-bottom: 20px;
+}
+
+/* .portfolio-item-div h3 {
+  margin-right: 40px;
+}
+
+.item-a {
+  grid-area: first;
+}
+.item-b {
+  grid-area: second;
+}
+.item-c {
+  grid-area: third;
+}
+.item-d {
+  grid-area: fourth;
+}
+.item5 {
+  grid-area: fifth;
+} */

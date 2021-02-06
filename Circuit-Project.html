@@ -43,7 +43,8 @@
       <img src="img/Nanoprocessor.jpg" alt="Image of a Nanoprocessor" class="intro__img">
    </section>
 
-   <div class="portfolio-item-individual">
+   <!---->
+   <div class="circuit-item-individual">
       <p>For this project I designed a basic nanoprocessor that involved registers, an adder/subtractor, multiplier, TSBA’s, and
       ROM’s. This design implemented four registers, six TSBA’s, one multiplier, one adder/subtractor, two ROM’s, and a 2:4
       decoder. Each of these work simultaneously to perform instructions given by the user. I also utilized all the switches
@@ -52,22 +53,23 @@
       
       <p>All the components I listed above are connected via bus lines that carry the data bits to where ever the user instructs
       them to go. The input is only 4 bits because there was only 4 switches I was able to use. I converted this into 8 bits
-      by using a TSBA and grounding 4 additional bits. This circuit takes in a total of 10 different data bits given by <strong>Figure
-      1</strong>. One of the ROM’s is a control unit that takes in 4 bits and converts that into a 16 bit output(<strong>Figure 2</strong>). The data
-      inside the ROM is provided in <strong>Figure 3</strong>. I only used 11 of these signals to enable or disable the TSBA’s, input and
+      by using a TSBA and grounding 4 additional bits. This circuit takes in a total of 10 different data bits given by the user. 
+      One of the ROM’s is a control unit that takes in 4 bits and converts that into a 16 bit output. 
+      I only used 11 of these signals to enable or disable the TSBA’s, input and
       output of the registers, and the adder/subtractor. One of the registers is an accumulator that stores the data received
       from adding/subtracting or multiplying the given data. The second ROM is used to convert 8 bits into 256 different
-      combinations that is used for the seven-segment display. The entire circuit design is given by <strong>Figure 4</strong> and the circuit
-      I designed is given by <strong>Figure 5</strong>.</p>
-      <div class="portfolio-item-div">
-         <br>
-         <h3>Figure 1</h3>
-         <img src="img/Figure1.png" alt="Nanoprocessor Layout" class="">
-         <img src="img/Figure1.png" alt="Nanoprocessor Layout" class="">
-         <img src="img/Figure1.png" alt="Nanoprocessor Layout" class="">
-         <img src="img/Figure1.png" alt="Nanoprocessor Layout" class="">
-         <img src="img/Figure1.png" alt="Nanoprocessor Layout" class="">
-
+      combinations that is used for the seven-segment display. The entire circuit design is given by the first image below and the circuit
+      I designed using Quartus software is given by second image.
+      
+   </div>
+   <div class="circuit-item-div">
+      <div class="circuit-item-imgs">
+         
+         <!-- <img src="img/Figure1.png" alt="Nanoprocessor Layout" class="item1">
+         <img src="img/Figure2.png" alt="Nanoprocessor Layout" class="item2">
+         <img src="img/Figure3.png" alt="Nanoprocessor Layout" class="item3"> -->
+         <img src="img/Figure4.png" alt="Nanoprocessor Layout" class="item1">
+         <img src="img/Figure5.png" alt="Nanoprocessor Layout" class="item2">
       </div>
    </div>
 
