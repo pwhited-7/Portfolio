@@ -413,8 +413,9 @@ header {
 }
 
 .portfolio {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(50px, 1fr));
+  display: flex;
+  justify-content: space-between;
+  /* grid-template-columns: repeat(2, minmax(50px, 1fr)); */
   column-gap: 100px;
   row-gap: 50px;
 }
@@ -433,6 +434,13 @@ header {
   width: 350px;
   height: 300px;
 }
+
+@media (max-width: 600px) {
+  .portfolio {
+    flex-direction: column;
+  }
+}
+
 /* .circuit-board-photograph__img {
   align-: ;
 }
